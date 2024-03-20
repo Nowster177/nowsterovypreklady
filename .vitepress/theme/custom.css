@@ -1,0 +1,30 @@
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+/*     left: 0; */
+    width: 80%;
+    height: 80%;
+}
+
+img{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.status img{
+    display: inline-block;
+    margin-right: 5px;
+    background: green;
+    width: 24%;
+}
