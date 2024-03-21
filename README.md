@@ -1,9 +1,3 @@
-# test
-
-lorem
-
-lorem:
-
 <center>
   <b>
     <a href="#">

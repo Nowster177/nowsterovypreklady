@@ -16,7 +16,7 @@ for (const source of await FastGlob("novinky/*-*.md")) {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "MikeCZ - Češtiny",
+  title: "Nowsterovy češtiny",
   description: "Stránka fanouškovského překladu hry.",
   base: "/test/",
   head: [
@@ -42,16 +42,11 @@ export default defineConfig({
       { text: "📰 Novinky", link: "/novinky/", activeMatch: "/novinky/"},
       // dropdown
       { text: '🇨🇿 Češtiny', items: [
-        { text: 'MikeCZ', items: [
-          { text: "Hollow Knight", link: "/readme/hollow", activeMatch: "/hollow/"},
+        { text: 'Bendy hry', items: [
+          { text: "Bendy and the Ink Machine", link: "/readme/hollow", activeMatch: "/hollow/"},
           { text: "Plague Inc", link: "/readme/plague", activeMatch: "/plague/" },
           { text: 'Voices of the Void', link: '/readme/VotV', activeMatch: "/VotV/"},
           { text: 'Progressbar95', link: '/readme/progressbar95', activeMatch: "/progressbar95/"}]},
-        { text: 'Pertim', items: [
-          { text: "Summer of 58", link: "/readme/summer", activeMatch: "/summer/"},
-          { text: "Silver Chains", link: "/readme/silcha", activeMatch: "/silcha/" },
-          { text: 'Im counting to 6', link: '/readme/count6', activeMatch: "/count6/"},
-          { text: 'Alone in the Dark Prologue', link: '/readme/alodar', activeMatch: "/alodar/"}]}
         ]},
     ],
 
