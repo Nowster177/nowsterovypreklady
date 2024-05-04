@@ -36,25 +36,24 @@ const people = {
 
 # Bendy and the Ink Machine – Čeština
 
-![](https://img.shields.io/badge/přeloženo-100%25-darkgreen?style=for-the-badge) 
+![](https://img.shields.io/badge/přeloženo-100%25-darkgreen?style=for-the-badge)
+![](https://img.shields.io/badge/herní%20klient-Steam-grey?style=for-the-badge) 
+![](https://img.shields.io/badge/verze%20hry-aktuální-grey?style=for-the-badge) 
+![](https://img.shields.io/badge/verze%20p%C5%99ekladu-2022.11.11.-grey?style=for-the-badge) 
 <!-- <img src="https://weblate.prekladyher.eu/widget/starfield/starfield/cs/svg-badge.svg" alt="Stav překladu"> -->
 <!-- <img src="https://weblate.prekladyher.eu/widget/starfield/starfield/cs/svg-badge.svg" alt="Stav překladu"> -->
 <!-- <img src="https://weblate.prekladyher.eu/widget/starfield/starfield/cs/svg-badge.svg" alt="Stav překladu"> -->
 
-Bendy and the Ink Machine je horrorová adventura která vyšla roku 2017 a je vytvořena studiem Joey Drew Studios a TheMeatly Games. Myslel jsem si že by čeština neuškodila tomuto titulu. Napadlo mě vytvořit český jazyk pro tuto hru. 
+Bendy and the Ink Machine je horrorová adventura která vyšla roku 2017 a je vytvořena studiem Joey Drew Studios a TheMeatly Games. Myslel jsem si, že by čeština neuškodila tomuto titulu. Napadlo mě vytvořit český jazyk pro tuto hru. 
 S vědomím studia.
 
 ## Požadavky
-[Scarab](https://github.com/fifty-six/Scarab/releases)`github` <br />
-└ Po prvnim spuštění se tě to zeptá kde máš hru nainstalovanou <br />
-└ V horní části appky je vyhledávání. Najdi a zapni **SFCore** a **Vasi** <br />
-[LangSupport](https://github.com/SFGrenade/LanguageSupport/releases)`github` <br />
-└ vložit sem: *\hollow_knight_Data\Managed\Mods <br />
-<img src="https://i.imgur.com/uAUAHpw.png"  width="55%" height="50%"> <br />
+[Instalačka] <br />
+└ Po zapnutí následujte instrukce instalačního procesu <br />
+└ !!! Musíte správně navolit složku hry, abyste češtinu měli nainstalovanou !!! <br />
 
 ## Známé chyby
-- Skloňování může být trochu nesmyslné <br />
-- Hra si nepamatuje zvolený jazyk. Při každém spuštění hry budete muset jazyk znovu zvolit <br />
+- Sice by neměli, ale ve hře můžou být některé věci špatně zapsané. Ať už gramaticky nebo nesmyslně. V případě nalezení mne prosím kontaktujte. <br />
 
 ## Členové týmu
 
@@ -69,8 +68,10 @@ Na překladu se podílejí následující lidé:
 <PTeamMembers :members="people.partners" />
 ---
 <div class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=7c_xdTnVPos&ab_channel=JoeyDrewStudios" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kU4w0WgUh18?si=SYmF_nWQFLD9Kb2y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## Ke stažení
-[Stáhnout](https://www.dropbox.com/sh/d26pxc72en77ipg/AAAV0iAZKVGZrmA9-wyyEaXKa?dl=0)
+[MEGA](https://www.dropbox.com/sh/d26pxc72en77ipg/AAAV0iAZKVGZrmA9-wyyEaXKa?dl=0)
+
+[PřekladyHer (dočasně)](https://prekladyher.eu/preklady/bendy-and-the-ink-machine.1083/)

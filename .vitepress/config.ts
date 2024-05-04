@@ -16,9 +16,9 @@ for (const source of await FastGlob("novinky/*-*.md")) {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Nowsterovy češtiny",
+  title: "Nowster - překlady",
   description: "Stránka fanouškovského překladu hry.",
-  base: "/test/",
+  base: "/",
   head: [
     ["link", { rel: "icon", href: "/test/favicon.ico" }],
   ],
@@ -43,10 +43,10 @@ export default defineConfig({
       // dropdown
       { text: '🇨🇿 Češtiny', items: [
         { text: 'Bendy hry', items: [
-          { text: "Bendy and the Ink Machine", link: "/readme/hollow", activeMatch: "/hollow/"},
-          { text: "Plague Inc", link: "/readme/plague", activeMatch: "/plague/" },
-          { text: 'Voices of the Void', link: '/readme/VotV', activeMatch: "/VotV/"},
-          { text: 'Progressbar95', link: '/readme/progressbar95', activeMatch: "/progressbar95/"}]},
+          { text: "Bendy and the Ink Machine", link: "/readme/batim", activeMatch: "/batim/"},
+          { text: "Bendy and the Dark Revival", link: "/readme/batdr", activeMatch: "/batdr/"}]},
+        { text: 'Ostatní', items: [
+          { text: "Zatím nic", link: "/glitch", activeMatch: "/glitch/"}]},
         ]},
     ],
 
@@ -59,7 +59,8 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "github", link: "#" }
+      { icon: "github", link: "#" },
+      { icon: "discord", link: "https://discord.gg/ZF53tFgNff" },
     ]
   }
 });
